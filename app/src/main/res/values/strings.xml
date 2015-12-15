@@ -120,4 +120,10 @@
     <string name="title_activity_sng57">Я буду славить Господа</string>
     <string name="title_activity_sng58">Я сдаюсь, Бог</string>
     <string name="title_activity_sng59">Sng59</string>
+    <string name="title_activity_song">SongActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lyrics">LyricsActivity</string>
+    <string name="title_activity_song_create">Create new song</string>
+    <string name="action_addSong">Add new song</string>
 </resources>
