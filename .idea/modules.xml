@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyPassion.iml" filepath="$PROJECT_DIR$/MyPassion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyPassionFork.iml" filepath="$PROJECT_DIR$/MyPassionFork.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
