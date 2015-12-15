@@ -17,6 +17,7 @@ import com.parse.ParseException;
 import com.parse.ParseQuery;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class SongActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -72,6 +73,12 @@ public class SongActivity extends AppCompatActivity implements AdapterView.OnIte
                 if (songs != null) {
                     mAdapter.clear();
                     mAdapter.addAll(songs);
+                    mAdapter.sort(new Comparator<Song>() {
+                        @Override
+                        public int compare(Song lhs, Song rhs) {
+                            return lhs.getName().compareTo(rhs.getName());
+                        }
+                    });
                 }
             }
         });
